@@ -1,0 +1,213 @@
+*{
+color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+.title{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: "Monoton";
+    letter-spacing: 20px;
+    
+}
+ 
+#progress_bar{
+    --scrollAmount: 0%;
+     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+     width: var(--scrollAmount);
+      height: 10px;
+      position: fixed;
+      z-index: 2;
+      top: 0px;
+}
+body{
+background-color: black;
+margin-bottom: -500px;
+}
+
+.headerTxt{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.uaeimg img{
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 40px;
+    border-radius: 15%;
+    opacity: 80%;
+   
+}
+.aboutUae{
+   margin-left: 600px;
+    position: relative;
+    top: -350px;
+    margin-right: 150px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 20px;
+  
+    border-radius: 5px;
+   
+}
+.headTxt{
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  
+}
+.subTxt{
+    line-height: 30px;
+    
+}
+.mapTxt{
+    text-align: center;
+    padding-top: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mapBtn{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+.Btn1{
+    padding-left: 280px;
+    padding-top: 10px;
+}
+.introTxt{
+    position: relative;
+    top: -250px;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+.Aboutemirates{
+    width: 80%;
+    margin: 0px 50px;
+    display: flex;
+   border: solid 1px white;
+   border-radius: 5px;
+   margin-bottom: 100px;
+}
+.emiratesDes, .emiratesImg{
+    width: 50%;
+}
+.emiratesImg img{
+    width: 300px;
+    position: relative;
+    right: -200px;
+    bottom: -20px;
+    padding: 10px;
+    border-radius: 20%;
+  
+}
+.head, .cityName{
+    padding-bottom: 10px;
+    padding-left: 20px;
+  
+}
+.head{
+    padding-top: 20px;
+    color: rgb(194, 194, 12);
+}
+.Aboutcity{
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.cityName{
+    background: -webkit-linear-gradient(rgb(255, 5, 5), rgb(115, 158, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.touristLink{
+    text-align: center;
+    padding-top: 10px;
+    color: red;
+}
+.tourBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.clickthis{
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+.clickthis:hover, .mapBtn:hover{
+    background-color: black;
+    cursor: pointer;
+    border-color: white;
+}
+.emiratesContainer{
+    position: relative;
+    top: -200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.Btn{
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+.Btn:hover{
+    background-color: black;
+    border-color: white;
+    cursor: pointer;
+}
+.donationContainer{
+    background-color: red;
+    position: relative;
+    top: -100px;
+    padding-bottom: 50px;
+}
+.donHead{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: black;
+}
+.donTxt{
+    text-align: center;
+    padding-top: 10px;
+}
+.donBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.donationBtn{
+    padding: 5px;
+    background-color: black;
+}
+.projectby, .name{
+    position: relative;
+    top: -40px;
+    text-align: center;
+    font-family: "Monoton";
+    letter-spacing: 10px;
+    font-size: 25px;
+}

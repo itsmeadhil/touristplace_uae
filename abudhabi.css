@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Raleway";
+  background-color: black;
+ 
+  
+}
+body{
+    overflow-x: hidden;
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Monoton";
+    letter-spacing: 5px;
+    font-size: 30px;
+    width: 100%;
+ 
+}
+.title1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: darkred;
+}
+#progress_bar{
+   --scrollAmount: 0%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    width: var(--scrollAmount);
+     height: 10px;
+     position: fixed;
+     z-index: 2;
+     top: 0px;
+    
+
+}
+.placeName{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(208, 255, 0), rgb(115, 158, 27));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+}
+.placeImg img{
+    width: 500px;
+    max-height: 281px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 460px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.placeAbout{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+.placeTime, .placeFee, .ticketTxt, .location label{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: rgb(170, 170, 0);
+}
+.location{
+    padding-bottom: 10px;
+}
+.placeContainer{
+  border: solid 1px white;
+  margin: 30px;
+  border-radius: 10px;
+}
+.buyBtn{
+    position: relative;
+    top: -20px;
+    left: 150px;
+}
+.ticketBtn, .locationBtn{
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+.ticketBtn:hover, .locationBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    border-color: white;
+}
+.placeFee{
+    padding-bottom: 10px;
+}
+.donationContainer{
+    background-color: red;
+}
+.Back{
+    padding-left: 20px;
+}
+.backBtn{
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+.backBtn:hover{
+    background-color: black;
+    border-color: white;
+    cursor: pointer;
+}
+.donationContainer{
+    background-color: red;
+    padding: 50px;
+    
+}
+.donHead{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: black;
+    background-color: red;
+}
+.donTxt{
+    text-align: center;
+    padding-top: 10px;
+    background-color: red;
+}
+.donBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    background-color: red;
+}
+.donationBtn{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+.projectby, .name{
+    position: relative;
+   padding-top: 20px;
+    text-align: center;
+    font-family: "Monoton";
+    letter-spacing: 10px;
+    font-size: 25px;
+}
+.donationBtn:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.review span img{
+width: 20px;
+
+}
+.review{
+   padding-bottom: 20px;
+    padding-left: 30px;
+    color: rgb(170, 170, 0);
+}
+.container{
+    padding: 2rem;
+    
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+   
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    overflow-x: hidden;
+    border-radius: 5px;
+   
+}
+.slider img{
+    flex: 1 0 100%;
+    object-fit:fill;
+   
+    
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: -1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background: transparent;
+  
+ 
+}
+.slider iframe{
+        flex: 1 0 100%;
+        object-fit: cover;
+       height: 430px;
+    
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.50;
+    transition: opacity ease 250ms;
+  margin-top: 10px;
+   
+}
+.slider-nav a:hover{
+    opacity: 1;
+}
+.slider-nav label{
+    position: relative;
+    top: 23px;
+    left: -30px;
+    color: red;
+}

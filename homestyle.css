@@ -1,18 +1,28 @@
+
 *{
 color: white;
   margin: 0px;
   padding: 0px;
   font-family: "Raleway";
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .title{
     
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     font-family: "Monoton";
     letter-spacing: 20px;
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
     
 }
+
  
 #progress_bar{
     --scrollAmount: 0%;
@@ -20,8 +30,8 @@ color: white;
      width: var(--scrollAmount);
       height: 10px;
       position: fixed;
-      z-index: 2;
-      top: 0px;
+      z-index: 3;
+      top: 66px;
 }
 body{
 background-color: black;
@@ -36,12 +46,13 @@ margin-bottom: -500px;
     justify-content: space-evenly;
     margin-top: 30px;
     padding: 10px 20px;
+    
 }
 
 .uaeimg img{
     width: 30%;
     padding-top: 100px;
-    padding-left: 40px;
+    padding-left: 60px;
     border-radius: 15%;
     opacity: 80%;
    
@@ -49,23 +60,27 @@ margin-bottom: -500px;
 .aboutUae{
    margin-left: 600px;
     position: relative;
-    top: -350px;
+    top: -300px;
     margin-right: 150px;
     border: solid 1px rgb(255, 255, 255);
-    padding: 20px;
+    padding: 25px;
   
     border-radius: 5px;
    
 }
 .headTxt{
+    font-family: "Anton";
     padding-bottom: 30px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     color: red;
+    letter-spacing: 3px;
+    
   
 }
 .subTxt{
     line-height: 30px;
+    font-size: 16px;
     
 }
 .mapTxt{
@@ -93,9 +108,11 @@ margin-bottom: -500px;
     font-size: 35px;
     color: red;
     font-weight: bold;
+    font-family: 'Monoton';
+    letter-spacing: 3px;
 }
 .Aboutemirates{
-    width: 80%;
+    width: 90%;
     margin: 0px 50px;
     display: flex;
    border: solid 1px white;
@@ -164,7 +181,7 @@ margin-bottom: -500px;
 .header{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 .Btn{
     padding: 10px;
@@ -216,5 +233,6 @@ margin-bottom: -500px;
    border-radius: 80%;
    position: relative;
    top: -150px;
-   right: -1000px;
+   right: -900px;
+   width: 100px;
 }

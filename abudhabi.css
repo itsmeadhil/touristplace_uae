@@ -3,21 +3,26 @@
     padding: 0px;
     color: white;
     font-family: "Raleway";
-  background-color: black;
+    background-color: black !important;
+   
  
-  
+
 }
+
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .title{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-family: "Monoton";
     letter-spacing: 5px;
     font-size: 30px;
     width: 100%;
- 
+    position: fixed;
+    z-index: 2;
+   
 }
 .title1{
     text-align: center;
@@ -32,9 +37,30 @@ body{
      height: 10px;
      position: fixed;
      z-index: 2;
-     top: 0px;
+     top: 69px;
     
 
+}
+.Dbtn1{
+    padding: 10px;
+    background-color: red !important;
+    border-radius: 5px;
+   position: relative;
+   right: -300px;
+}
+.Dbtn1:hover{
+    cursor: pointer;
+    background-color: black !important;
+    border: 1px solid white;
+}
+.trans{
+    background-color: transparent ;
+
+}
+.imageslider{
+    width: 60%;
+    margin-left: 250px !important;
+   
 }
 .placeName{
     text-align: center;
@@ -73,8 +99,9 @@ body{
 }
 .placeContainer{
   border: solid 1px white;
-  margin: 30px;
+  margin: 100px;
   border-radius: 10px;
+
 }
 .buyBtn{
     position: relative;
@@ -82,7 +109,7 @@ body{
     left: 150px;
 }
 .ticketBtn, .locationBtn{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0) !important;
     padding: 5px;
     border-radius: 5px;
 }
@@ -99,10 +126,12 @@ body{
 }
 .Back{
     padding-left: 20px;
+    padding-top: 75px;
+    
 }
 .backBtn{
     padding: 10px;
-    background-color: red;
+    background-color: red !important;
     border-radius: 5px;
 }
 .backBtn:hover{
@@ -111,7 +140,7 @@ body{
     cursor: pointer;
 }
 .donationContainer{
-    background-color: red;
+    background-color: red !important;
     padding: 50px;
     
 }
@@ -121,24 +150,24 @@ body{
     font-weight: bold;
     padding-top: 20px;
     color: black;
-    background-color: red;
+    background-color: red !important;
 }
 .donTxt{
     text-align: center;
     padding-top: 10px;
-    background-color: red;
+    background-color: red !important;
 }
 .donBtn{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    background-color: red;
+    background-color: red !important;
 }
 .donationBtn{
     padding: 10px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 .projectby, .name{
     position: relative;
@@ -209,7 +238,7 @@ width: 20px;
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: white;
+    background-color: white !important;
     opacity: 0.50;
     transition: opacity ease 250ms;
   margin-top: 10px;

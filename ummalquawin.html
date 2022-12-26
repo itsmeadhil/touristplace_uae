@@ -13,6 +13,7 @@
     
 </head>
 <body>
+  <div id="preloader"></div>
   <div class="homeScreen">
     <div class="title">
       Tourist places in Umm al Quwain<span><a href="https://www.emiratesrc.ae/donate/Default_en.aspx?prm=PHEALTH" target="_blank"><button class="Dbtn1">Donation</button></span></a>
@@ -243,6 +244,12 @@ Falaj Al Mualla is notable for its fort and also three watchtowers (east, west a
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+  var loader = document.getElementById("preloader")
+  window.addEventListener("load", function(){
+      loader.style.display = "none"
+  })
 </script>
 </body>
 </html>

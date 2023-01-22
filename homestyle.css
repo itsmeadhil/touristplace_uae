@@ -119,8 +119,9 @@ margin-bottom: -500px;
    border-radius: 5px;
    margin-bottom: 100px;
 }
-.emiratesDes, .emiratesImg{
+.emiratesDes, .emiratesImg, .emiratesImg1{
     width: 50%;
+    overflow: hidden;
 }
 .emiratesImg img{
     width: 300px;
@@ -129,8 +130,11 @@ margin-bottom: -500px;
     bottom: -20px;
     padding: 10px;
     border-radius: 20%;
+    overflow: hidden;
   
 }
+
+
 .head, .cityName{
     padding-bottom: 10px;
     padding-left: 20px;
@@ -251,5 +255,7 @@ margin-bottom: -500px;
     background: linear-gradient(transparent, red);
     border-radius: 6px;
 }
+
+
 
 
